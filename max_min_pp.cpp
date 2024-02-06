@@ -35,8 +35,8 @@ int main(int argc, char** argv) {
     int tamanioLista = 15;
     std::vector<int> numeros(tamanioLista);
 
-    int max;
-    int min;
+    int max_final;
+    int min_final;
 
     if (rank == 0) {
         std::printf("Rank_%d =", rank);
@@ -64,10 +64,10 @@ int main(int argc, char** argv) {
             MPI_Recv(&max_parciales[i], 1, MPI_INT, i, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
             MPI_Recv(&min_parciales[i], 1, MPI_INT, i, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
         }
-        max = maxNumero(max_parciales, nprocs);
-        min = minNumero(min_parciales, nprocs);
-        std::printf("Maximo Total=%d\n", max);
-        std::printf("Minimo Total=%d\n", min);
+        max_final = maxNumero(max_parciales, nprocs);
+        min_final = minNumero(min_parciales, nprocs);
+        std::printf("Maximo=%d\n", max_final);
+        std::printf("Minimo=%d\n", min_final);
 
     } else {
         int block_size= (tamanioLista)/(nprocs);
