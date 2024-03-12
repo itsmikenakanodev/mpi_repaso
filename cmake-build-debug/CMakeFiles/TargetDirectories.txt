@@ -1,0 +1,12 @@
+D:/Programacion Paralela/mpi_repaso/cmake-build-debug/CMakeFiles/mpi_repaso.dir
+D:/Programacion Paralela/mpi_repaso/cmake-build-debug/CMakeFiles/mpi_sfml.dir
+D:/Programacion Paralela/mpi_repaso/cmake-build-debug/CMakeFiles/mpi_sfml2.dir
+D:/Programacion Paralela/mpi_repaso/cmake-build-debug/CMakeFiles/grises.dir
+D:/Programacion Paralela/mpi_repaso/cmake-build-debug/CMakeFiles/suma.dir
+D:/Programacion Paralela/mpi_repaso/cmake-build-debug/CMakeFiles/multiplicar.dir
+D:/Programacion Paralela/mpi_repaso/cmake-build-debug/CMakeFiles/resta.dir
+D:/Programacion Paralela/mpi_repaso/cmake-build-debug/CMakeFiles/espejo.dir
+D:/Programacion Paralela/mpi_repaso/cmake-build-debug/CMakeFiles/medianaminmax.dir
+D:/Programacion Paralela/mpi_repaso/cmake-build-debug/CMakeFiles/bordes.dir
+D:/Programacion Paralela/mpi_repaso/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Programacion Paralela/mpi_repaso/cmake-build-debug/CMakeFiles/rebuild_cache.dir

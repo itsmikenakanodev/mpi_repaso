@@ -1,0 +1,1409 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Compilador de optimización de C/C++ de Microsoft (R) versión 19.39.33519 para x64
+      (C) Microsoft Corporation. Todos los derechos reservados.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.39.33519.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Nota: inclusión del archivo: D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Nota: inclusión del archivo: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Compilador de optimización de C/C++ de Microsoft (R) versión 19.39.33519 para x64
+      (C) Microsoft Corporation. Todos los derechos reservados.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.39.33519.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Nota: inclusión del archivo: D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Nota: inclusión del archivo: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-qimt9s"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-qimt9s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-qimt9s
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_41281 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_41281.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_41281.dir\\ /FS -c "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_41281.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_41281.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_41281.exe /implib:cmTC_41281.lib /pdb:cmTC_41281.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-qeun3s"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-qeun3s"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-qeun3s
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_93683 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_93683.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_93683.dir\\ /FS -c "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_93683.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_93683.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_93683.exe /implib:cmTC_93683.lib /pdb:cmTC_93683.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-s52fog"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-s52fog"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-s52fog
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_108ee && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_108ee.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_108ee.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-s52fog\\test_mpi.c"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_108ee.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_108ee.dir\\test_mpi.c.obj  /out:cmTC_108ee.exe /implib:cmTC_108ee.lib /pdb:cmTC_108ee.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-55r3ry"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-55r3ry"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-55r3ry
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_ca89e && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_ca89e.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_ca89e.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-55r3ry\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ca89e.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_ca89e.dir\\test_mpi.cpp.obj  /out:cmTC_ca89e.exe /implib:cmTC_ca89e.lib /pdb:cmTC_ca89e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-696t16"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-696t16"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-696t16
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_3539d && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_3539d.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_3539d.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-696t16\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3539d.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_3539d.dir\\test_mpi.cpp.obj  /out:cmTC_3539d.exe /implib:cmTC_3539d.lib /pdb:cmTC_3539d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ehpe7y"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ehpe7y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ehpe7y
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_b740d && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_b740d.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_b740d.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-ehpe7y\\test_mpi.c"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b740d.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_b740d.dir\\test_mpi.c.obj  /out:cmTC_b740d.exe /implib:cmTC_b740d.lib /pdb:cmTC_b740d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ga6zff"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ga6zff"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ga6zff
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_131bb && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_131bb.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_131bb.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-ga6zff\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_131bb.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_131bb.dir\\test_mpi.cpp.obj  /out:cmTC_131bb.exe /implib:cmTC_131bb.lib /pdb:cmTC_131bb.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-giaxqc"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-giaxqc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-giaxqc
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_18c50 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_18c50.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_18c50.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-giaxqc\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_18c50.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_18c50.dir\\test_mpi.cpp.obj  /out:cmTC_18c50.exe /implib:cmTC_18c50.lib /pdb:cmTC_18c50.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-nvgfhm"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-nvgfhm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-nvgfhm
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_8c216 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_8c216.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_8c216.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-nvgfhm\\test_mpi.c"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8c216.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_8c216.dir\\test_mpi.c.obj  /out:cmTC_8c216.exe /implib:cmTC_8c216.lib /pdb:cmTC_8c216.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-y5i2ni"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-y5i2ni"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-y5i2ni
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_7dee7 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_7dee7.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_7dee7.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-y5i2ni\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7dee7.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_7dee7.dir\\test_mpi.cpp.obj  /out:cmTC_7dee7.exe /implib:cmTC_7dee7.lib /pdb:cmTC_7dee7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-0hl90g"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-0hl90g"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-0hl90g
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_d29b8 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_d29b8.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_d29b8.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-0hl90g\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d29b8.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_d29b8.dir\\test_mpi.cpp.obj  /out:cmTC_d29b8.exe /implib:cmTC_d29b8.lib /pdb:cmTC_d29b8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-8u2ibb"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-8u2ibb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-8u2ibb
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_cc48f && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_cc48f.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_cc48f.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-8u2ibb\\test_mpi.c"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_cc48f.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_cc48f.dir\\test_mpi.c.obj  /out:cmTC_cc48f.exe /implib:cmTC_cc48f.lib /pdb:cmTC_cc48f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4stbdk"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4stbdk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4stbdk
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_b24b3 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_b24b3.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_b24b3.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-4stbdk\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b24b3.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_b24b3.dir\\test_mpi.cpp.obj  /out:cmTC_b24b3.exe /implib:cmTC_b24b3.lib /pdb:cmTC_b24b3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-mm8bsf"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-mm8bsf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-mm8bsf
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_f93f9 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_f93f9.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_f93f9.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-mm8bsf\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f93f9.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_f93f9.dir\\test_mpi.cpp.obj  /out:cmTC_f93f9.exe /implib:cmTC_f93f9.lib /pdb:cmTC_f93f9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-36pcpe"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-36pcpe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-36pcpe
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_ad9ed && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_ad9ed.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_ad9ed.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-36pcpe\\test_mpi.c"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ad9ed.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_ad9ed.dir\\test_mpi.c.obj  /out:cmTC_ad9ed.exe /implib:cmTC_ad9ed.lib /pdb:cmTC_ad9ed.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-k7eajn"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-k7eajn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-k7eajn
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_a76db && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_a76db.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_a76db.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-k7eajn\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a76db.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_a76db.dir\\test_mpi.cpp.obj  /out:cmTC_a76db.exe /implib:cmTC_a76db.lib /pdb:cmTC_a76db.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-wzotdw"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-wzotdw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-wzotdw
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_d5351 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_d5351.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_d5351.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-wzotdw\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d5351.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_d5351.dir\\test_mpi.cpp.obj  /out:cmTC_d5351.exe /implib:cmTC_d5351.lib /pdb:cmTC_d5351.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-3f0z8e"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-3f0z8e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-3f0z8e
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_11c61 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_11c61.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_11c61.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-3f0z8e\\test_mpi.c"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_11c61.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_11c61.dir\\test_mpi.c.obj  /out:cmTC_11c61.exe /implib:cmTC_11c61.lib /pdb:cmTC_11c61.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-izx9c9"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-izx9c9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-izx9c9
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_aa9b4 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_aa9b4.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_aa9b4.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-izx9c9\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_aa9b4.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_aa9b4.dir\\test_mpi.cpp.obj  /out:cmTC_aa9b4.exe /implib:cmTC_aa9b4.lib /pdb:cmTC_aa9b4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-438j6m"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-438j6m"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-438j6m
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_26130 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_26130.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_26130.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-438j6m\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_26130.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_26130.dir\\test_mpi.cpp.obj  /out:cmTC_26130.exe /implib:cmTC_26130.lib /pdb:cmTC_26130.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-flx37t"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-flx37t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-flx37t
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_de669 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_de669.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_de669.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-flx37t\\test_mpi.c"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_de669.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_de669.dir\\test_mpi.c.obj  /out:cmTC_de669.exe /implib:cmTC_de669.lib /pdb:cmTC_de669.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-grpq65"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-grpq65"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-grpq65
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_66ae1 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_66ae1.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_66ae1.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-grpq65\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_66ae1.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_66ae1.dir\\test_mpi.cpp.obj  /out:cmTC_66ae1.exe /implib:cmTC_66ae1.lib /pdb:cmTC_66ae1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-6kq59g"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-6kq59g"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-6kq59g
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_bffbc && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_bffbc.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_bffbc.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-6kq59g\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_bffbc.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_bffbc.dir\\test_mpi.cpp.obj  /out:cmTC_bffbc.exe /implib:cmTC_bffbc.lib /pdb:cmTC_bffbc.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-hh3z6i"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-hh3z6i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-hh3z6i
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_793b2 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_793b2.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_793b2.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-hh3z6i\\test_mpi.c"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_793b2.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_793b2.dir\\test_mpi.c.obj  /out:cmTC_793b2.exe /implib:cmTC_793b2.lib /pdb:cmTC_793b2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-arikow"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-arikow"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-arikow
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_d8947 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_d8947.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_d8947.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-arikow\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d8947.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_d8947.dir\\test_mpi.cpp.obj  /out:cmTC_d8947.exe /implib:cmTC_d8947.lib /pdb:cmTC_d8947.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ulrq35"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ulrq35"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ulrq35
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_13a4b && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_13a4b.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_13a4b.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-ulrq35\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_13a4b.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_13a4b.dir\\test_mpi.cpp.obj  /out:cmTC_13a4b.exe /implib:cmTC_13a4b.lib /pdb:cmTC_13a4b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-6tfouv"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-6tfouv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-6tfouv
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_4a0e6 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_4a0e6.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_4a0e6.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-6tfouv\\test_mpi.c"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4a0e6.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_4a0e6.dir\\test_mpi.c.obj  /out:cmTC_4a0e6.exe /implib:cmTC_4a0e6.lib /pdb:cmTC_4a0e6.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ghtswe"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ghtswe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ghtswe
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_c1f12 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_c1f12.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_c1f12.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-ghtswe\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_c1f12.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_c1f12.dir\\test_mpi.cpp.obj  /out:cmTC_c1f12.exe /implib:cmTC_c1f12.lib /pdb:cmTC_c1f12.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-vjilbw"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-vjilbw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-vjilbw
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_4bab9 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_4bab9.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_4bab9.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-vjilbw\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4bab9.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_4bab9.dir\\test_mpi.cpp.obj  /out:cmTC_4bab9.exe /implib:cmTC_4bab9.lib /pdb:cmTC_4bab9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-l7tfds"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-l7tfds"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-l7tfds
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_30ee4 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_30ee4.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_30ee4.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-l7tfds\\test_mpi.c"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_30ee4.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_30ee4.dir\\test_mpi.c.obj  /out:cmTC_30ee4.exe /implib:cmTC_30ee4.lib /pdb:cmTC_30ee4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-bd2t2d"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-bd2t2d"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-bd2t2d
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_f16e6 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_f16e6.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_f16e6.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-bd2t2d\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f16e6.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_f16e6.dir\\test_mpi.cpp.obj  /out:cmTC_f16e6.exe /implib:cmTC_f16e6.lib /pdb:cmTC_f16e6.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-fj8sb5"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-fj8sb5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-fj8sb5
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_1afe2 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_1afe2.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_1afe2.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-fj8sb5\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1afe2.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_1afe2.dir\\test_mpi.cpp.obj  /out:cmTC_1afe2.exe /implib:cmTC_1afe2.lib /pdb:cmTC_1afe2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-snhbbz"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-snhbbz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-snhbbz
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_27633 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_27633.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_27633.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-snhbbz\\test_mpi.c"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_27633.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_27633.dir\\test_mpi.c.obj  /out:cmTC_27633.exe /implib:cmTC_27633.lib /pdb:cmTC_27633.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-u7ep7r"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-u7ep7r"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-u7ep7r
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_f19e9 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_f19e9.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_f19e9.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-u7ep7r\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f19e9.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_f19e9.dir\\test_mpi.cpp.obj  /out:cmTC_f19e9.exe /implib:cmTC_f19e9.lib /pdb:cmTC_f19e9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-5ziodu"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-5ziodu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-5ziodu
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_9a630 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_9a630.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_9a630.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-5ziodu\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_9a630.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_9a630.dir\\test_mpi.cpp.obj  /out:cmTC_9a630.exe /implib:cmTC_9a630.lib /pdb:cmTC_9a630.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-3tu80i"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-3tu80i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-3tu80i
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_af125 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_af125.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_af125.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-3tu80i\\test_mpi.c"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_af125.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_af125.dir\\test_mpi.c.obj  /out:cmTC_af125.exe /implib:cmTC_af125.lib /pdb:cmTC_af125.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-zsrf7r"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-zsrf7r"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-zsrf7r
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_435eb && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_435eb.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_435eb.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-zsrf7r\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_435eb.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_435eb.dir\\test_mpi.cpp.obj  /out:cmTC_435eb.exe /implib:cmTC_435eb.lib /pdb:cmTC_435eb.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-9ubqof"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-9ubqof"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-9ubqof
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_c62ed && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_c62ed.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_c62ed.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-9ubqof\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_c62ed.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_c62ed.dir\\test_mpi.cpp.obj  /out:cmTC_c62ed.exe /implib:cmTC_c62ed.lib /pdb:cmTC_c62ed.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-vn8vdt"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-vn8vdt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-vn8vdt
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_93607 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_93607.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_93607.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-vn8vdt\\test_mpi.c"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_93607.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_93607.dir\\test_mpi.c.obj  /out:cmTC_93607.exe /implib:cmTC_93607.lib /pdb:cmTC_93607.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ijqrfb"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ijqrfb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ijqrfb
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_f7c99 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_f7c99.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_f7c99.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-ijqrfb\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f7c99.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_f7c99.dir\\test_mpi.cpp.obj  /out:cmTC_f7c99.exe /implib:cmTC_f7c99.lib /pdb:cmTC_f7c99.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-gqyez7"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-gqyez7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-gqyez7
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_f073c && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_f073c.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_f073c.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-gqyez7\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f073c.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_f073c.dir\\test_mpi.cpp.obj  /out:cmTC_f073c.exe /implib:cmTC_f073c.lib /pdb:cmTC_f073c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4pk0xc"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4pk0xc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4pk0xc
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_73197 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_73197.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_73197.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-4pk0xc\\test_mpi.c"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_73197.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_73197.dir\\test_mpi.c.obj  /out:cmTC_73197.exe /implib:cmTC_73197.lib /pdb:cmTC_73197.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-6ym5dz"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-6ym5dz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-6ym5dz
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_68919 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_68919.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_68919.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-6ym5dz\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_68919.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_68919.dir\\test_mpi.cpp.obj  /out:cmTC_68919.exe /implib:cmTC_68919.lib /pdb:cmTC_68919.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-o3o1k2"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-o3o1k2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-o3o1k2
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_03dd1 && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_03dd1.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_03dd1.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-o3o1k2\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_03dd1.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_03dd1.dir\\test_mpi.cpp.obj  /out:cmTC_03dd1.exe /implib:cmTC_03dd1.lib /pdb:cmTC_03dd1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-f3gf8s"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-f3gf8s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-f3gf8s
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_fbf2f && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_fbf2f.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_fbf2f.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-f3gf8s\\test_mpi.c"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_fbf2f.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_fbf2f.dir\\test_mpi.c.obj  /out:cmTC_fbf2f.exe /implib:cmTC_fbf2f.lib /pdb:cmTC_fbf2f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-vkdsze"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-vkdsze"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-vkdsze
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_ae1ac && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_ae1ac.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_ae1ac.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-vkdsze\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ae1ac.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_ae1ac.dir\\test_mpi.cpp.obj  /out:cmTC_ae1ac.exe /implib:cmTC_ae1ac.lib /pdb:cmTC_ae1ac.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "D:/Jetbrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "conan_provider.cmake:587 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-y08tsf"
+      binary: "D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-y08tsf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: D:/Programacion Paralela/mpi_repaso/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-y08tsf
+        
+        Run Build Command(s):D:/Jetbrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_a1f6b && [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_a1f6b.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_a1f6b.dir\\ /FS -c "D:\\Programacion Paralela\\mpi_repaso\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-y08tsf\\test_mpi.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Jetbrains\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a1f6b.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_a1f6b.dir\\test_mpi.cpp.obj  /out:cmTC_a1f6b.exe /implib:cmTC_a1f6b.lib /pdb:cmTC_a1f6b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...

@@ -6,7 +6,7 @@
 #include <cmath>
 
 std::vector<int> read_file() {
- std::fstream fs("/workspace/mpi_repaso/datos.txt", std::ios::in );
+ std::fstream fs("D:/Programacion Paralela/mpi_repaso/datos.txt", std::ios::in );
  std::string line;
  std::vector<int> ret;
  while( std::getline(fs, line) ){
@@ -92,11 +92,14 @@ int main(int argc, char** argv) {
     MPI_INT , MPI_SUM , 0 , 
     MPI_COMM_WORLD);
 
-    if(rank==0) {
+    if(rank==0) {\
+    int suma=0;
         //imprimir el resultado
         for(int i=0; i<101;i++) {
+            suma +=H[i];
             std::printf("%3d: %d", i, H[i]);        
             }
+        std::printf("suma: %d", suma);
     }
 
     MPI_Finalize();

@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mpi_repaso",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bordes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bordes-Debug-0031d50318503de60243.json",
+					"name" : "bordes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "espejo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-espejo-Debug-68f0427a6eb2c791ac9f.json",
+					"name" : "espejo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grises::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grises-Debug-685b771620bad4c6a7c2.json",
+					"name" : "grises",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "medianaminmax::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-medianaminmax-Debug-7f2f382fd427232987f1.json",
+					"name" : "medianaminmax",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpi_repaso::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpi_repaso-Debug-21b45f1606b0d3014a68.json",
+					"name" : "mpi_repaso",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpi_sfml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpi_sfml-Debug-62d5e84fa49406374fc4.json",
+					"name" : "mpi_sfml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpi_sfml2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpi_sfml2-Debug-f8187684ce7909ad361d.json",
+					"name" : "mpi_sfml2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multiplicar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multiplicar-Debug-bfdea306b3574b6c24a5.json",
+					"name" : "multiplicar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resta::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resta-Debug-963bf609e30244e133a5.json",
+					"name" : "resta",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "suma::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-suma-Debug-bb2150ae0207a020cc57.json",
+					"name" : "suma",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Programacion Paralela/mpi_repaso/cmake-build-debug",
+		"source" : "D:/Programacion Paralela/mpi_repaso"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
